@@ -1,0 +1,38 @@
+{
+  "name": "levellog-util-types",
+  "version": "0.0.1",
+  "description": "util types for levellog",
+  "main": "src/index.ts",
+  "private": false,
+  "types": "src/index.d.ts",
+  "keywords": [
+    "typescript",
+    "util"
+  ],
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prepare": "rm -rf dist && mkdir dist && tsc",
+    "tsd": "tsc && tsd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yunjin-kim/levellog-util-types.git"
+  },
+  "author": "levellog",
+  "contributors": [
+    "yunjin-kim",
+    "jihyeok-um"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yunjin-kim/levellog-util-types/issues"
+  },
+  "homepage": "https://github.com/yunjin-kim/levellog-util-types#readme",
+  "dependencies": {
+    "typescript": "^4.8.3",
+    "tsd": "^0.24.1"
+  }
+}
